@@ -1,5 +1,32 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0d52f4a3-6d3c-467d-93a9-ef515dad6ce5")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Board Features\n* USB type C input, with two versions:\n  * low current, no Power Delivery\n  * higher current, with Power Delivery\n  * should be able to fab both from the same board by omitting components and changing regulator\n* Small, embeddable into a 4ms Pod or other small case\n  * Maybe 2 or 3 power connectors on the module\n  * Then flying bus board to expand this for larger cases"
+		(exclude_from_sim no)
+		(at 215.9 15.875 0)
+		(size 66.04 22.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f6015a4f-6365-4c73-bc91-744669c7c117")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
